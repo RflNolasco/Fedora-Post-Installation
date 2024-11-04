@@ -4,4 +4,4 @@ Script de configuração básica do Fedora depois da instalação para a minha c
 # O que faz?
 Configura alguns problemas comuns do Fedora, mais especificamente, faz alguns ajustes no dnf, habilita o flathub, insere mais repositórios ao sistema, instala drivers da nvidia e corrige problemas com codecs.
 
-# OBS.: Esse script é para as minhas configurações
+## OBS.: Esse script é para as minhas configurações
