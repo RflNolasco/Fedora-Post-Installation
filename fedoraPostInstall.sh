@@ -32,6 +32,9 @@ sudo dnf install amrnb amrwb faad2 flac gpac-libs lame libde265 libfc14audiodeco
 sudo dnf install dnfdragora
 sudo dnf install gnome-software 
 
+# Gerenciamento de flatpaks
+flatpak install flathub com.github.tchx84.Flatseal
+
 # Player de midia
 sudo dnf install vlc
 
@@ -40,3 +43,28 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 # Disabilitar Desktop Magnetic (Mouse Lag)
 dconf dump / |grep mag
+
+# Instalar aplicativos p/ jogos
+flatpak install flathub com.valvesoftware.Steam
+flatpak install flathub com.heroicgameslauncher.hgl
+sudo dnf install lutris
+flatpak install flathub com.usebottles.bottles
+flatpak install flathub com.vysp3r.ProtonPlus
+flatpak install flathub net.davidotek.pupgui2
+
+# Instalar aplicativos side-game
+sudo dnf install obs-studio
+sudo dnf install obs-studio-plugin-browser obs-studio-plugin-vlc-video obs-studio-plugin-vkcapture obs-studio-plugin-webkitgtk
+sudo dnf install obs-studio-plugin-x264
+sudo dnf install xorg-x11-drv-nvidia-cuda
+
+# Outros aplicativos
+flatpak install flathub org.gnome.gitlab.YaLTeR.VideoTrimmer
+flatpak install flathub org.kde.kdenlive
+flatpak install flathub org.upscayl.Upscayl
+flatpak install flathub org.gimp.GIMP
+flatpak install flathub com.obsproject.Studio.Plugin.waveform
+flatpak install com.obsproject.Studio.Plugin.MoveTransition
+flatpak install flathub dev.pulsar_edit.Pulsar
+flatpak install flathub md.obsidian.Obsidian
+flatpak install flathub com.discordapp.Discord
