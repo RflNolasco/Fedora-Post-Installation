@@ -18,9 +18,6 @@ sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-releas
 # Melhorando o rep
 sudo dnf groupupdate core
 
-# Habilitando o Flathub
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-
 # Instalar o driver da NVIDIA e CUDA
 sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs -y
 sudo dnf install nvidia-vaapi-driver -y
@@ -37,3 +34,6 @@ sudo dnf install gnome-software
 
 # Player de midia
 sudo dnf install vlc
+
+# Habilitando o Flathub
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
