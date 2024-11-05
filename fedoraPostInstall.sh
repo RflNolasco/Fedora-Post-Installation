@@ -51,6 +51,7 @@ sudo dnf install lutris
 flatpak install flathub com.usebottles.bottles
 flatpak install flathub com.vysp3r.ProtonPlus
 flatpak install flathub net.davidotek.pupgui2
+sudo dnf install steam-devices
 
 # Instalar aplicativos side-game
 sudo dnf install obs-studio
