@@ -37,3 +37,6 @@ sudo dnf install vlc
 
 # Habilitando o Flathub
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+# Disabilitar Desktop Magnetic (Mouse Lag)
+dconf dump / |grep mag
